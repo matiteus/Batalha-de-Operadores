@@ -1,0 +1,79 @@
+{
+  "game_settings": {
+    "total_levels": 10,
+    "initial_lives": 3,
+    "max_lives": 5,
+    "default_time_limit": 60,
+    "min_time_limit": 20,
+    "points_base": 100,
+    "points_increment_per_level": 20,
+    "time_bonus_multiplier": 0.5,
+    "penalty_wrong_answer": 1,
+    "penalty_timeout": 1
+  },
+  "display_settings": {
+    "window_width": 800,
+    "window_height": 600,
+    "window_title": "Math Logic Game",
+    "fps": 60,
+    "background_color": [30, 30, 50]
+  },
+  "card_settings": {
+    "card_width": 400,
+    "card_height": 200,
+    "option_width": 80,
+    "option_height": 50,
+    "option_spacing": 20,
+    "border_radius": 15
+  },
+  "colors": {
+    "background": [30, 30, 50],
+    "card_idle": [50, 50, 80],
+    "card_hover": [70, 70, 100],
+    "card_correct": [50, 150, 50],
+    "card_wrong": [150, 50, 50],
+    "text_primary": [255, 255, 255],
+    "text_secondary": [200, 200, 200],
+    "border": [100, 100, 150],
+    "button_idle": [60, 60, 90],
+    "button_hover": [100, 100, 140],
+    "timer_warning": [255, 100, 100],
+    "lives": [255, 100, 100],
+    "score": [255, 255, 255],
+    "victory": [255, 215, 0],
+    "level_complete": [100, 255, 100]
+  },
+  "font_settings": {
+    "title_size": 64,
+    "heading_size": 48,
+    "text_size": 32,
+    "small_text_size": 24,
+    "option_size": 36
+  },
+  "difficulty_settings": {
+    "level_time_limits": {
+      "1": 60,
+      "2": 55,
+      "3": 50,
+      "4": 45,
+      "5": 40,
+      "6": 40,
+      "7": 35,
+      "8": 35,
+      "9": 30,
+      "10": 30
+    },
+    "level_points": {
+      "1": 100,
+      "2": 120,
+      "3": 140,
+      "4": 160,
+      "5": 180,
+      "6": 200,
+      "7": 220,
+      "8": 240,
+      "9": 260,
+      "10": 300
+    }
+  }
+}

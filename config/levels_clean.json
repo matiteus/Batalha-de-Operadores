@@ -1,0 +1,200 @@
+﻿{
+    "levels": [
+        {
+            "level_number": 1,
+            "level_name": "Basic Comparisons",
+            "description": "Compare simple numbers with < and >",
+            "questions": [
+                {
+                    "id": "L1Q1",
+                    "expression": "3 ? 5 = true",
+                    "correct_answer": "<",
+                    "wrong_answers": [">", "=", "<="]
+                },
+                {
+                    "id": "L1Q2",
+                    "expression": "7 ? 4 = true",
+                    "correct_answer": ">",
+                    "wrong_answers": ["<", "=", ">="]
+                },
+                {
+                    "id": "L1Q3",
+                    "expression": "2 ? 8 = true",
+                    "correct_answer": "<",
+                    "wrong_answers": [">", "=", "<="]
+                },
+                {
+                    "id": "L1Q4",
+                    "expression": "9 ? 3 = true",
+                    "correct_answer": ">",
+                    "wrong_answers": ["<", "=", ">="]
+                },
+                {
+                    "id": "L1Q5",
+                    "expression": "1 ? 10 = true",
+                    "correct_answer": "<",
+                    "wrong_answers": [">", "=", "<="]
+                }
+            ]
+        },
+        {
+            "level_number": 2,
+            "level_name": "Equal and Not Equal",
+            "description": "Learn = and != operators",
+            "questions": [
+                {
+                    "id": "L2Q1",
+                    "expression": "5 ? 5 = true",
+                    "correct_answer": "=",
+                    "wrong_answers": ["<", ">", "!="]
+                },
+                {
+                    "id": "L2Q2",
+                    "expression": "4 ? 7 = true",
+                    "correct_answer": "!=",
+                    "wrong_answers": ["<", ">", "="]
+                },
+                {
+                    "id": "L2Q3",
+                    "expression": "8 ? 8 = true",
+                    "correct_answer": "=",
+                    "wrong_answers": ["<", ">", "!="]
+                },
+                {
+                    "id": "L2Q4",
+                    "expression": "3 ? 6 = true",
+                    "correct_answer": "!=",
+                    "wrong_answers": ["<", ">", "="]
+                },
+                {
+                    "id": "L2Q5",
+                    "expression": "10 ? 10 = true",
+                    "correct_answer": "=",
+                    "wrong_answers": ["<", ">", "!="]
+                }
+            ]
+        },
+        {
+            "level_number": 3,
+            "level_name": "Less or Equal, Greater or Equal",
+            "description": "Understand <= and >= operators",
+            "questions": [
+                {
+                    "id": "L3Q1",
+                    "expression": "5 ? 5 = true",
+                    "correct_answer": "<=",
+                    "wrong_answers": ["<", ">", "="]
+                },
+                {
+                    "id": "L3Q2",
+                    "expression": "7 ? 7 = true",
+                    "correct_answer": ">=",
+                    "wrong_answers": [">", "<", "="]
+                },
+                {
+                    "id": "L3Q3",
+                    "expression": "4 ? 6 = true",
+                    "correct_answer": "<=",
+                    "wrong_answers": ["<", ">", "!="]
+                },
+                {
+                    "id": "L3Q4",
+                    "expression": "8 ? 5 = true",
+                    "correct_answer": ">=",
+                    "wrong_answers": [">", "<", "!="]
+                },
+                {
+                    "id": "L3Q5",
+                    "expression": "3 ? 3 = true",
+                    "correct_answer": "<=",
+                    "wrong_answers": ["<", ">", "="]
+                }
+            ]
+        },
+        {
+            "level_number": 4,
+            "level_name": "Mixed Comparisons",
+            "description": "All comparison operators combined",
+            "questions": [
+                {
+                    "id": "L4Q1",
+                    "expression": "12 ? 8 = true",
+                    "correct_answer": ">",
+                    "wrong_answers": ["<", "=", "!="]
+                },
+                {
+                    "id": "L4Q2",
+                    "expression": "6 ? 15 = true",
+                    "correct_answer": "<",
+                    "wrong_answers": [">", "=", "!="]
+                },
+                {
+                    "id": "L4Q3",
+                    "expression": "9 ? 9 = true",
+                    "correct_answer": "=",
+                    "wrong_answers": ["<", ">", "!="]
+                },
+                {
+                    "id": "L4Q4",
+                    "expression": "11 ? 11 = true",
+                    "correct_answer": ">=",
+                    "wrong_answers": [">", "<", "="]
+                },
+                {
+                    "id": "L4Q5",
+                    "expression": "7 ? 14 = true",
+                    "correct_answer": "!=",
+                    "wrong_answers": ["<", ">", "="]
+                }
+            ]
+        },
+        {
+            "level_number": 5,
+            "level_name": "Two-Digit Numbers",
+            "description": "Compare larger numbers",
+            "questions": [
+                {
+                    "id": "L5Q1",
+                    "expression": "25 ? 18 = true",
+                    "correct_answer": ">",
+                    "wrong_answers": ["<", "=", "!="]
+                },
+                {
+                    "id": "L5Q2",
+                    "expression": "34 ? 47 = true",
+                    "correct_answer": "<",
+                    "wrong_answers": [">", "=", "!="]
+                },
+                {
+                    "id": "L5Q3",
+                    "expression": "56 ? 56 = true",
+                    "correct_answer": "=",
+                    "wrong_answers": ["<", ">", "!="]
+                },
+                {
+                    "id": "L5Q4",
+                    "expression": "42 ? 42 = true",
+                    "correct_answer": "<=",
+                    "wrong_answers": ["<", ">", "="]
+                },
+                {
+                    "id": "L5Q5",
+                    "expression": "89 ? 23 = true",
+                    "correct_answer": ">=",
+                    "wrong_answers": [">", "<", "!="]
+                }
+            ]
+        },
+        {
+            "level_number": 6,
+            "level_name": "Simple Addition Logic",
+            "description": "Logic with basic addition",
+            "questions": [
+                {
+                    "id": "L6Q1",
+                    "expression": "3 + 4 ? 8 = true",
+                    "correct_answer": "<",
+                    "wrong_answers": [">", "=", "!="]
+                },
+                {
+                    "id": "L6Q2",

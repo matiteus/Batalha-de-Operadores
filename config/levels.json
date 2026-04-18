@@ -1,0 +1,374 @@
+{
+  "levels": [
+    {
+      "level_number": 1,
+      "level_name": "Basic Comparisons",
+      "description": "Compare simple numbers with < and >",
+      "questions": [
+        {
+          "id": "L1Q1",
+          "expression": "3 ? 5 = true",
+          "correct_answer": "<",
+          "wrong_answers": [">", "=", "<="]
+        },
+        {
+          "id": "L1Q2",
+          "expression": "7 ? 4 = true",
+          "correct_answer": ">",
+          "wrong_answers": ["<", "=", ">="]
+        },
+        {
+          "id": "L1Q3",
+          "expression": "2 ? 8 = true",
+          "correct_answer": "<",
+          "wrong_answers": [">", "=", "<="]
+        },
+        {
+          "id": "L1Q4",
+          "expression": "9 ? 3 = true",
+          "correct_answer": ">",
+          "wrong_answers": ["<", "=", ">="]
+        },
+        {
+          "id": "L1Q5",
+          "expression": "1 ? 10 = true",
+          "correct_answer": "<",
+          "wrong_answers": [">", "=", "<="]
+        }
+      ]
+    },
+    {
+      "level_number": 2,
+      "level_name": "Equal and Not Equal",
+      "description": "Learn = and != operators",
+      "questions": [
+        {
+          "id": "L2Q1",
+          "expression": "5 ? 5 = true",
+          "correct_answer": "=",
+          "wrong_answers": ["<", ">", "!="]
+        },
+        {
+          "id": "L2Q2",
+          "expression": "4 ? 7 = true",
+          "correct_answer": "!=",
+          "wrong_answers": ["<", ">", "="]
+        },
+        {
+          "id": "L2Q3",
+          "expression": "8 ? 8 = true",
+          "correct_answer": "=",
+          "wrong_answers": ["<", ">", "!="]
+        },
+        {
+          "id": "L2Q4",
+          "expression": "3 ? 6 = true",
+          "correct_answer": "!=",
+          "wrong_answers": ["<", ">", "="]
+        },
+        {
+          "id": "L2Q5",
+          "expression": "10 ? 10 = true",
+          "correct_answer": "=",
+          "wrong_answers": ["<", ">", "!="]
+        }
+      ]
+    },
+    {
+      "level_number": 3,
+      "level_name": "Less or Equal, Greater or Equal",
+      "description": "Understand <= and >= operators",
+      "questions": [
+        {
+          "id": "L3Q1",
+          "expression": "5 ? 5 = true",
+          "correct_answer": "<=",
+          "wrong_answers": ["<", ">", "="]
+        },
+        {
+          "id": "L3Q2",
+          "expression": "7 ? 7 = true",
+          "correct_answer": ">=",
+          "wrong_answers": [">", "<", "="]
+        },
+        {
+          "id": "L3Q3",
+          "expression": "4 ? 6 = true",
+          "correct_answer": "<=",
+          "wrong_answers": ["<", ">", "!="]
+        },
+        {
+          "id": "L3Q4",
+          "expression": "8 ? 5 = true",
+          "correct_answer": ">=",
+          "wrong_answers": [">", "<", "!="]
+        },
+        {
+          "id": "L3Q5",
+          "expression": "3 ? 3 = true",
+          "correct_answer": "<=",
+          "wrong_answers": ["<", ">", "="]
+        }
+      ]
+    },
+    {
+      "level_number": 4,
+      "level_name": "Mixed Comparisons",
+      "description": "All comparison operators combined",
+      "questions": [
+        {
+          "id": "L4Q1",
+          "expression": "12 ? 8 = true",
+          "correct_answer": ">",
+          "wrong_answers": ["<", "=", "!="]
+        },
+        {
+          "id": "L4Q2",
+          "expression": "6 ? 15 = true",
+          "correct_answer": "<",
+          "wrong_answers": [">", "=", "!="]
+        },
+        {
+          "id": "L4Q3",
+          "expression": "9 ? 9 = true",
+          "correct_answer": "=",
+          "wrong_answers": ["<", ">", "!="]
+        },
+        {
+          "id": "L4Q4",
+          "expression": "11 ? 11 = true",
+          "correct_answer": ">=",
+          "wrong_answers": [">", "<", "="]
+        },
+        {
+          "id": "L4Q5",
+          "expression": "7 ? 14 = true",
+          "correct_answer": "!=",
+          "wrong_answers": ["<", ">", "="]
+        }
+      ]
+    },
+    {
+      "level_number": 5,
+      "level_name": "Two-Digit Numbers",
+      "description": "Compare larger numbers",
+      "questions": [
+        {
+          "id": "L5Q1",
+          "expression": "25 ? 18 = true",
+          "correct_answer": ">",
+          "wrong_answers": ["<", "=", "!="]
+        },
+        {
+          "id": "L5Q2",
+          "expression": "34 ? 47 = true",
+          "correct_answer": "<",
+          "wrong_answers": [">", "=", "!="]
+        },
+        {
+          "id": "L5Q3",
+          "expression": "56 ? 56 = true",
+          "correct_answer": "=",
+          "wrong_answers": ["<", ">", "!="]
+        },
+        {
+          "id": "L5Q4",
+          "expression": "42 ? 42 = true",
+          "correct_answer": "<=",
+          "wrong_answers": ["<", ">", "="]
+        },
+        {
+          "id": "L5Q5",
+          "expression": "89 ? 23 = true",
+          "correct_answer": ">=",
+          "wrong_answers": [">", "<", "!="]
+        }
+      ]
+    },
+    {
+      "level_number": 6,
+      "level_name": "Simple Addition Logic",
+      "description": "Logic with basic addition",
+      "questions": [
+        {
+          "id": "L6Q1",
+          "expression": "3 + 4 ? 8 = true",
+          "correct_answer": "<",
+          "wrong_answers": [">", "=", "!="]
+        },
+        {
+          "id": "L6Q2",
+          "expression": "5 + 6 ? 10 = true",
+          "correct_answer": ">",
+          "wrong_answers": ["<", "=", "!="]
+        },
+        {
+          "id": "L6Q3",
+          "expression": "7 + 2 ? 9 = true",
+          "correct_answer": "=",
+          "wrong_answers": ["<", ">", "!="]
+        },
+        {
+          "id": "L6Q4",
+          "expression": "8 + 3 ? 10 = true",
+          "correct_answer": ">",
+          "wrong_answers": ["<", "=", "!="]
+        },
+        {
+          "id": "L6Q5",
+          "expression": "2 + 5 ? 8 = true",
+          "correct_answer": "<",
+          "wrong_answers": [">", "=", "!="]
+        }
+      ]
+    },
+    {
+      "level_number": 7,
+      "level_name": "Addition and Subtraction Logic",
+      "description": "Logic with addition and subtraction",
+      "questions": [
+        {
+          "id": "L7Q1",
+          "expression": "12 - 5 ? 10 = true",
+          "correct_answer": "<",
+          "wrong_answers": [">", "=", "!="]
+        },
+        {
+          "id": "L7Q2",
+          "expression": "15 + 8 ? 20 = true",
+          "correct_answer": ">",
+          "wrong_answers": ["<", "=", "!="]
+        },
+        {
+          "id": "L7Q3",
+          "expression": "20 - 7 ? 13 = true",
+          "correct_answer": "=",
+          "wrong_answers": ["<", ">", "!="]
+        },
+        {
+          "id": "L7Q4",
+          "expression": "9 + 6 ? 14 = true",
+          "correct_answer": ">",
+          "wrong_answers": ["<", "=", "!="]
+        },
+        {
+          "id": "L7Q5",
+          "expression": "18 - 9 ? 10 = true",
+          "correct_answer": "<",
+          "wrong_answers": [">", "=", "!="]
+        }
+      ]
+    },
+    {
+      "level_number": 8,
+      "level_name": "Multiplication Logic",
+      "description": "Logic with multiplication",
+      "questions": [
+        {
+          "id": "L8Q1",
+          "expression": "4 x 5 ? 25 = true",
+          "correct_answer": "<",
+          "wrong_answers": [">", "=", "!="]
+        },
+        {
+          "id": "L8Q2",
+          "expression": "6 x 7 ? 40 = true",
+          "correct_answer": ">",
+          "wrong_answers": ["<", "=", "!="]
+        },
+        {
+          "id": "L8Q3",
+          "expression": "8 x 3 ? 24 = true",
+          "correct_answer": "=",
+          "wrong_answers": ["<", ">", "!="]
+        },
+        {
+          "id": "L8Q4",
+          "expression": "5 x 9 ? 50 = true",
+          "correct_answer": "<",
+          "wrong_answers": [">", "=", "!="]
+        },
+        {
+          "id": "L8Q5",
+          "expression": "7 x 8 ? 50 = true",
+          "correct_answer": ">",
+          "wrong_answers": ["<", "=", "!="]
+        }
+      ]
+    },
+    {
+      "level_number": 9,
+      "level_name": "Mixed Operations Logic",
+      "description": "Logic with all operations",
+      "questions": [
+        {
+          "id": "L9Q1",
+          "expression": "15 + 8 - 3 ? 20 = true",
+          "correct_answer": "=",
+          "wrong_answers": ["<", ">", "!="]
+        },
+        {
+          "id": "L9Q2",
+          "expression": "4 x 6 + 5 ? 30 = true",
+          "correct_answer": "<",
+          "wrong_answers": [">", "=", "!="]
+        },
+        {
+          "id": "L9Q3",
+          "expression": "20 - 4 x 3 ? 10 = true",
+          "correct_answer": ">",
+          "wrong_answers": ["<", "=", "!="]
+        },
+        {
+          "id": "L9Q4",
+          "expression": "12 / 4 + 8 ? 15 = true",
+          "correct_answer": "<",
+          "wrong_answers": [">", "=", "!="]
+        },
+        {
+          "id": "L9Q5",
+          "expression": "3 x 5 + 10 ? 25 = true",
+          "correct_answer": "=",
+          "wrong_answers": ["<", ">", "!="]
+        }
+      ]
+    },
+    {
+      "level_number": 10,
+      "level_name": "Advanced Logic",
+      "description": "Complex expressions with comparisons",
+      "questions": [
+        {
+          "id": "L10Q1",
+          "expression": "(8 + 4) x 2 ? 30 = true",
+          "correct_answer": "<",
+          "wrong_answers": [">", "=", "!="]
+        },
+        {
+          "id": "L10Q2",
+          "expression": "5 x (6 + 3) ? 50 = true",
+          "correct_answer": "<",
+          "wrong_answers": [">", "=", "!="]
+        },
+        {
+          "id": "L10Q3",
+          "expression": "(15 - 5) x 3 ? 25 = true",
+          "correct_answer": ">",
+          "wrong_answers": ["<", "=", "!="]
+        },
+        {
+          "id": "L10Q4",
+          "expression": "20 + 4 x 5 ? 45 = true",
+          "correct_answer": "<",
+          "wrong_answers": [">", "=", "!="]
+        },
+        {
+          "id": "L10Q5",
+          "expression": "(12 + 8) / 4 ? 10 = true",
+          "correct_answer": "<",
+          "wrong_answers": [">", "=", "!="]
+        }
+      ]
+    }
+  ]
+}
